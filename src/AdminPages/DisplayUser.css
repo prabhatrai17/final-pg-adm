@@ -1,0 +1,139 @@
+.addbutton{
+    position:relative;
+    left:1320px;
+    top:10px;
+    margin:30px;
+    padding: 10px;
+    
+}
+.heading{
+    margin-left: 250px;
+    /* color: rgb(187, 182, 182); */
+}
+.headingf{
+    margin-left: 15px;
+}
+td{
+    border:1px solid #ffffff;
+    text-align: center;
+    /* color: rgb(37, 26, 26); */
+    color:rgb(14, 1, 1);
+    border-radius: 10px;
+}
+th{
+    border:1px solid #ffffff;
+    text-align: center;
+    color: white;
+    height:50px;
+    border-radius: 10px;
+    /* background-color: #A40865;  */
+    background-color: #a55f89;
+}
+table{
+    border:1px solid #ffffff;
+    width:98%;
+    margin:15px; 
+    border-radius: 10px;
+    /* background-color: #CEA4B2; */
+    background-color: #ddabcc;
+    
+}
+.btnadd{
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    width: 200px;
+    left: 40%;
+}
+.form{
+    margin: 20px;
+}
+.search{
+     position:relative;
+    /* top: 20px;  */
+    left:300px;
+    height:40px;
+    width:50%;
+    margin: 20px;
+    
+}
+.srchbtn{
+    position:relative;
+    top: 23px;
+   
+    height:40px;
+    
+    margin: 20px;
+    padding:10px;
+}
+.containsrch{
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+.course-search-and-filter {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0px 5px 13px 1px rgba(184, 182, 182, 0.6);
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: -webkit-linear-gradient(
+      right bottom,
+      rgb(235, 241, 252),
+      #ffeff8
+    );
+    background: -moz-linear-gradient(right bottom, rgb(235, 241, 252), #ffeff8);
+    background: linear-gradient(to right bottom, rgb(235, 241, 252), #ffeff8);
+  }
+  .course-search {
+    display: flex;
+    height: auto;
+    width: 40%;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .course-search-btn,
+  .course-search-input {
+    background-color: rgb(255, 255, 255);
+    padding: 7px;
+    margin: 7px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    box-shadow: 0px 0px 5px 1px rgba(128, 128, 128, 0.1);
+  }
+  
+  .course-search-input {
+    width: 200px;
+  }
+  .course-filter {
+    flex-wrap: wrap;
+    display: flex;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .course-filter-elem {
+    background-color: rgb(252, 247, 250);
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    padding: 3px;
+    margin: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px rgba(128, 128, 128, 0.1);
+  }
+  .filter1{
+      font-size: 20px;
+      margin: 10px;
+  }
+  .zindex{
+      z-index: -1;
+  }

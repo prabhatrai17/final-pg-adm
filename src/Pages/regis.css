@@ -1,0 +1,31 @@
+/* div {
+    border: 15px;
+    padding: 25px;
+    margin: 10px;
+    
+
+  }
+  .first{
+    background-color: #F8EFF4;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    
+    
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    position: absolute; 
+    left: 35%;
+    bottom: 10%;
+    
+}
+.second {
+  margin: 10px;
+  text-align: center;
+}
+#email, #password,#username,#mobileNumber,#confirmPassword,#adminUsear{
+  background-color:#F8EFF4;border-radius: 20px; height: 30px; width: 250px; text-align: center; border: 1px solid black;
+} */

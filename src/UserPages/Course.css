@@ -1,0 +1,125 @@
+
+
+
+ .zindex{
+     z-index: -1;
+ }
+
+
+
+
+
+
+ 
+ .col-md-4 {
+    margin-bottom: 30px;
+  }
+  .course-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid black; */
+  }
+  
+  .card {
+    padding: 30px;
+    
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.565);
+  }
+  .card:hover {
+    box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.08);
+  }
+  .card-title {
+    margin-top: 20px;
+  }
+  .card-text {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .card-text .fa {
+    font-size: 26px;
+  }
+  /* .avatar {
+    width: 140px;
+    margin: auto;
+  }
+  .avatar img {
+    border: solid 6px transparent;
+    border-radius: 50%;
+  } */
+  .card:hover .avatar img {
+    border-color: rgb(99, 204, 131);
+  }
+  
+  .btn {
+    border-radius: 25px;
+  }
+  
+  footer p {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  
+  footer p a,
+  footer p a:hover {
+    color: rgb(99, 204, 131);
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1040px;
+    }
+  }
+  
+
+
+
+  .card {
+    box-shadow: 3px 2px 20px 10px rgba(72, 61, 57, 0.127);
+    border-radius: 10px;
+    transition: 0.1s;
+    width: 80%;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    /* margin-right:20px; */
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  } 
+  .gridelement{
+    
+    margin-left: 2%;
+    font-size: 15px;
+  }
+  .course-card-btns-box{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .course-card-row{
+    display: flex;
+    justify-content: stretch;
+    
+  }
+  .grid-bottom-row{
+    display: flex;
+    justify-content: space-between;
+  }
+  .addreview{
+    /* background-color: azure; */
+    /* border: 1px solid rgba(0, 0, 0, 0.213); */
+    display: flex;
+  }
+  .review-des-text{
+    height: 40px;
+    /* background-color: white; */
+  }

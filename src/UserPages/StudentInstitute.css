@@ -1,0 +1,10 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1040px;
+    }
+  }  

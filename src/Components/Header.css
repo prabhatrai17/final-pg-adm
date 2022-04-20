@@ -1,0 +1,100 @@
+
+/* nav{
+display: block;
+background-color: green;
+} */
+
+.heading{
+    margin-left: 30px;
+   font-size: 60px;
+    text-decoration: solid;
+  font-weight: bolder;
+  margin-right: 1020px;
+  color:white;
+  
+}
+
+
+.container-nav {
+    display: flex;
+    width: 100%;
+    flex-direction: rows;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+    align-items: center;
+    height: auto;
+    margin: 0;
+   
+    box-shadow: 0px 5px 5px 5px rgba(163, 161, 161, 0.5);
+  }
+  
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    position: relative;
+  }
+  
+  .nav-logo {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 40px;
+    width: 50%;
+    color: #4a598a;
+  }
+  .nav-profile {
+    padding: 10px;
+    padding: 20px;
+    font-size: 14px;
+    color: #4a598a;
+  }
+  .nav-logout {
+    padding: 10px;
+    font-size: 14px;
+    color: #4a598a;
+  }
+  .container-below-nav {
+    width: 100%;
+    flex-direction: rows;
+  
+    height: auto;
+    margin: 0;
+    display: flex;
+    /* background-color: rgba(245, 228, 238, 0.856); */
+    background-color: rgb(219, 170, 213);
+    justify-content: center;
+  }
+  .options-below-nav {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+    border-radius: 50px;
+    /* background-color: rgb(255, 249, 249); */
+    background-color: rgb(250, 234, 248);
+  
+    
+    box-shadow: 5px 5px 10px 1px hsla(0, 3%, 70%, 0.1);
+  }
+  .options-below-nav-items {
+    font-size: 20px;
+    color: #4a598a;
+    flex-shrink: inherit;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* .options-institute {
+  } */
+  .options-courses {
+    padding-left: 10px;
+  }
+  .options-student {
+    padding-left: 10px;
+  }
+  

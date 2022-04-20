@@ -1,0 +1,20 @@
+body{
+    background-color: #f8eff4;
+}
+
+fieldset{
+    background-color:#CEA4B2;
+    
+}
+legend{
+    background-color:#cfab8a;
+    font-size: 20px;
+    
+   
+}
+
+input{
+    margin: 20px;
+    height:25px;
+    width:210px;
+}

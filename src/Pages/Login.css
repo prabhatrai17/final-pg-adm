@@ -1,0 +1,24 @@
+
+.first{
+    background-color: #F8EFF4;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    height: fit-content;   
+    width: 400px ;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 5% ; 
+    left: 35%;
+    
+}
+/* .second {
+    margin: 10px;
+    text-align: center;
+}
+#email, #passworld {
+    background-color:#F8EFF4;border-radius: 20px; height: 30px; width: 250px; text-align: center; border: 1px solid black;
+} */
